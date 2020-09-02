@@ -1,12 +1,17 @@
 export default class Character {
-  constructor() {
-    this.type =;
-    this.name =
-    this.inventory;
-    this.attributes;
-    this.hp;
-    this.damage;
+  constructor(type, name, attributes, hp) {
+    this.type = type;
+    this.name = name;
+    this.inventory = [];
+    this.attributes = attributes;
+    this.hp = hp;
+    this.damage = 0;
   }
-  hero(){}
-  enemy () {}
+
+  // King Arthur
+  // Sir Bedevere the Wise
+  // Sir Lancelot the Brave
+  // Sir Galahad the Pure
+  // Sir Robin the Not-Quite-So-Brave-as-Sir-Lancelot
+  // Black Knight
 }
