@@ -1,0 +1,14 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+div.a {
+  text-align: center;
+  border-style: ridge;
+  border-color: darkmagenta;
+  border-width: 20px;
+  margin: 20px;
+}
