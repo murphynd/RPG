@@ -7,11 +7,4 @@ export default class Character {
     this.hp = hp;
     this.damage = 0;
   }
-
-  // King Arthur
-  // Sir Bedevere the Wise
-  // Sir Lancelot the Brave
-  // Sir Galahad the Pure
-  // Sir Robin the Not-Quite-So-Brave-as-Sir-Lancelot
-  // Black Knight
 }
