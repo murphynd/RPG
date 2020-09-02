@@ -3,15 +3,16 @@ export default class Game {
     this.player = [];
     this.playerIndex = 0;
   }
-
   addPlayer(playerToAdd) {
     this.player.push(playerToAdd);
+    return this.player;
   }
   nextPlayer() {
-    if (playerIndex + 1 < Player.length) {
-      playerIndex++;
+    if (this.playerIndex + 1 < this.player.length) {
+      this.playerIndex++;
     } else {
-      playerIndex = 0;
+      this.playerIndex = 0;
     }
   }
+  fight() {}
 }
